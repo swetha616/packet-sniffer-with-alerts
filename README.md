@@ -13,7 +13,7 @@ This project is a **real-time network packet sniffer** built in Python. It captu
   * Port scans
   * Flooding attacks (packets per second threshold)
   * SYN flood patterns
-* Alerts printed on console and optionally sent via **email (SMTP)**
+* Alerts printed on console 
 * Optional GUI using **Matplotlib** for live traffic graphs
 * CLI options for filtering, verbose printing, and demo packet counts
 
