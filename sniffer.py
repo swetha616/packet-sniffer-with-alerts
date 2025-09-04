@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
-sniffer_complete.py
-
-Single-file final: Packet sniffer + SQLite logging + anomaly detection + alerts + optional GUI
+Packet sniffer + SQLite logging + anomaly detection + alerts + optional GUI
 
 Features:
  - Capture packets with scapy
@@ -15,8 +13,8 @@ Features:
      * Protocol usage pie chart (TCP / UDP / OTHER)
  - Verbose printing (--verbose), demo count (--count), and helpful CLI flags
 
-Run (Linux/macOS): sudo python sniffer_complete.py --filter "ip" --gui
-Run (Windows PowerShell as Admin): python sniffer_complete.py --filter "ip" --gui
+Run (Linux/macOS): sudo python sniffer.py --filter "ip" --gui
+Run (Windows PowerShell as Admin): python sniffer.py --filter "ip" --gui
 """
 
 from __future__ import annotations
@@ -605,3 +603,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
