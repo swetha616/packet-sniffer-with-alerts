@@ -33,9 +33,8 @@ pip install scapy matplotlib
 
 ## Files
 
-* `sniffer_complete.py` — main Python script for the sniffer
-* `Network_Sniffer_Report.docx` — project report
-* `traffic.db` — SQLite database (created automatically when running)
+* `sniffer.py` — main Python script for the sniffer
+* `Project_Report.docx` — project report
 
 ## Usage
 
